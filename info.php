@@ -25,7 +25,7 @@ $nombre3 = floor($longueur3/2);
 $souchaine3 = substr($Codesecret3,5,$nombre3);
 $replace3 = str_replace('@#?', '  ',$souchaine3);
 $chainefinale3 = strrev($replace3);
-echo $chainefinale3; //chaine finale !
+echo $chainefinale3; //chaine finale  !
 echo ' ';
 
 
